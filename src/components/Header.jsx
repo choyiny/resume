@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import { contact } from '../data';
 import '../styles/components/Header.scss';
-const [ { Icon }, ...info ] = contact;
 
 export const Header = () => (
     <header className='header'>

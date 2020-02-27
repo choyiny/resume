@@ -3,11 +3,12 @@ import React, { Fragment } from 'react';
 export const projects = [
     {
         title: 'DeployingReliable.Software',
-        subtitle: 'Final year computer science project',
+        subtitle: 'Computer Science research project',
         url: 'https://github.com/choyiny/reliable_blog',
         details: [
-            'Demonstrate and explores Google’s Site Reliability Engineering Principles.',
-            'Main Technologies Used: Google Cloud Stack, Kubernetes, Ansible, Prometheus, Grafana, Docker',
+            'An indepedent study to demonstrate Google’s Site Reliability Engineering Principles.',
+            'Topics researched into includes: Monitoring Distributed Systems, Load Balancing, and Managing Overload',
+            'Main Technologies Used: Google Cloud Stack, Kubernetes, Ansible, Elasticsearch, Kibana, Docker',
         ]
     },
     {
@@ -24,7 +25,7 @@ export const projects = [
         subtitle: 'Real-time Q&A Application inspired by Kahoot',
         url: 'https://github.com/choyiny/answer-me',
         details: [
-            'Built for a University Club Event.',
+            'Built for a University Club Event to explore the efficient use of technology for events.',
             'Technologies used: Python Flask, WebSockets, HTML/CSS, jQuery',
         ]
     },
@@ -33,7 +34,7 @@ export const projects = [
         subtitle: 'Open Source Contributor',
         url: 'https://github.com/matplotlib/matplotlib',
         details: [
-            'Added percentiles to violin plot, and fixed various bugs'
+            'Added percentiles to violin plot, and fixed various bugs in relation to graph plotting.'
         ]
     },
 ];
