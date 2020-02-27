@@ -3,7 +3,6 @@ import { work } from '../../data/content';
 
 const Work = () => (
     <div className='content__section'>
-        <h2 className='content__heading'>Work</h2>
         <ul className='content__list content__list--head'>
             { work.map(({ title, role, date, details }, i) => (
                 <li className='content__item content__item--head' key={ i }>
@@ -16,12 +15,14 @@ const Work = () => (
                     </div>
                     <ul className='content__list'>
                         { details.map((item, j) => (
-                            <li className='content__item' key={ j }>{ item }</li>
+                            <li className='content__list-item' key={ j }>{ item }</li>
                         )) }
                     </ul>
                 </li>
             )) }
         </ul>
+        <div className='content__line' />
     </div>
-)
+);
+
 export default Work;
