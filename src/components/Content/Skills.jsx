@@ -3,6 +3,7 @@ import { skills } from '../../data/content';
 
 const Skills = () => (
     <div className='content__section'>
+        <div className='content__line'/>
         { skills.map(({title, items}, i) => (
             <div className="content__item" key={i}>
                 <div className="content__item-subtext">

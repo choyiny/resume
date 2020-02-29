@@ -7,19 +7,28 @@ export const work = [
         date: 'Sep 2017 - Present',
         details: [
             'Built an Active Record library on the HL7 FHIR standard with Python, which allowed developers to easily access patient health information programmatically.',
-            'Led the development of a dynamic clinical form builder and renderer with an intuitive drag and drop interface in Angular, eliminating the need for developers for creating a care plan in the application.',
-            'Developed a centralized health data repository managed through a RESTful API which can retrieve lab reports from the Ontario Laboratory Information System and convert and store results from HL7v2 to HL7 FHIR with Python Flask.',
-            'Enhanced the company’s deployment strategy by introducing Docker deployment scripts with Docker Compose for the company’s multi-application software stack and onboarded other developers to use Docker for development.',
+            'Led the development of the company\'s core infrastructure with Ruby on Rails, Python, and Redis workers to enable applications to scale up for more users.',
+            'Eliminated the need for developers to create customized clinical forms by building a dynamic form renderer and a form builder with an intuitive drag and drop interface in Angular, saving the company over 2 weeks of developer time per implementation.',
+            'Decreased time spent by Operations team to deploy by 80% by replacing legacy scripts with Docker and Ansible.',
             'Commended for consistently delivering clean and well-structured code at double the speed of other developers on the team.',
-
         ]
     },
     {
-        title: 'Student Intern',
-        role: 'Paradigm Corporation Limited',
-        date: 'June 2016 - Aug 2016',
+        title: 'Computer Science Teaching Assistant',
+        role: 'University of Toronto',
+        date: 'Sep 2019 - Apr 2020',
         details: [
-            'Utilized Razor C#, jQuery and MSSQL to create a program to allow users to selectively synchronize freight shipment data from corporate offices to its container freight stations for over a million database records, saving 2 days of manual work.',
+            'Taught students advanced design patterns and agile methodologies, resulting in a 95% average for supervised students.',
+            'Introduced students to enterprise level deploying patterns (Github Actions, Ansible, Kubernetes) and site reliability engineering principles in a third-year course focusing on Web.',
+            'Managed and advised students on making open source contributions on popular projects such as pdf.js (Javascript), Firefox Focus and Minecraft Forge (Java) through a thorough understanding of the open source project architecture.'
+        ]
+    },
+    {
+        title: 'Developer Intern',
+        role: 'Paradigm Corporation Limited',
+        date: 'Jun 2016 - Aug 2016',
+        details: [
+            'Saved two days of manual work per site by automatically synchronizing freight shipment data between places for over a million database records.',
             'Automated the workflow of generating serial numbers for shipments using a configurable client defined format.',
             'Created the ability for users to perform real-time note taking in the application’s web interface and allow for future reference.'
         ]

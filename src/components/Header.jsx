@@ -13,6 +13,5 @@ export const Header = () => (
                 i@choy.in | Github: @choyiny | https://choy.in/
             </p>
         </div>
-        <div className='header__line'/>
     </header>
 );

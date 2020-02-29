@@ -2,6 +2,7 @@ import React from 'react';
 
 const Education = () => (
     <div className='content__section'>
+        <div className='content__line' />
         <h3 className='content__item-heading2'>
             University of Toronto<span className="content__item-right">2016 - 2020 (Expected)</span>
         </h3>
@@ -10,14 +11,6 @@ const Education = () => (
         </div>
         <div className='content__item'>
             <div className='content__item-subtext'>Computer Science Specialist (Co-op) – Software Engineering Stream</div>
-        </div>
-        <div className='content__item'>
-            <div className='content__item-subtext'><span className="content__item-subtext-title">Average Computer Science Courses GPA:</span> 3.53/4.00</div>
-        </div>
-        <div className='content__item'>
-            <div className='content__item-subtext'><span className="content__item-subtext-title">Teaching Assistant:</span> Introduction to Software Engineering (CSCC01), Introduction to Computer Science I (CSCA08),
-                Programming on the Web (CSCC09), Engineering Large Software Systems (CSCD01)
-            </div>
         </div>
         <div className='content__line'/>
     </div>

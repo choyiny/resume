@@ -1,5 +1,5 @@
 import React from 'react';
-import {projects, work} from '../../data/content';
+import { projects } from '../../data/content';
 
 const Projects = () => (
     <div className='content__section'>

@@ -19,22 +19,5 @@ export const projects = [
             'A game where players wave their phones to cast spells to damage the other player with WebRTC technology.',
             'Technologies used: Angular, Firebase, Docker, Flask, WebRTC',
         ]
-    },
-    {
-        title: 'AnswerMe',
-        subtitle: 'Real-time Q&A Application inspired by Kahoot',
-        url: 'https://github.com/choyiny/answer-me',
-        details: [
-            'Built for a University Club Event to explore the efficient use of technology for events.',
-            'Technologies used: Python Flask, WebSockets, HTML/CSS, jQuery',
-        ]
-    },
-    {
-        title: 'Matplotlib',
-        subtitle: 'Open Source Contributor',
-        url: 'https://github.com/matplotlib/matplotlib',
-        details: [
-            'Added percentiles to violin plot, and fixed various bugs in relation to graph plotting.'
-        ]
-    },
+    }
 ];
