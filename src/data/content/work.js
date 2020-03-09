@@ -2,14 +2,14 @@ import React, { Fragment } from 'react';
 
 export const work = [
     {
-        title: 'Full Stack Software Developer',
+        title: 'Full Stack Software Developer (Co-op)',
         role: 'Verto Inc.',
         date: 'Sep 2017 - Present',
         details: [
             'Built an Active Record library on the HL7 FHIR standard with Python, which allowed developers to easily access patient health information programmatically.',
             'Led the development of the company\'s core infrastructure with Ruby on Rails, Python, and Redis workers to enable applications to scale up for more users.',
             'Eliminated the need for developers to create customized clinical forms by building a dynamic form renderer and a form builder with an intuitive drag and drop interface in Angular, saving the company over 2 weeks of developer time per implementation.',
-            'Decreased time spent by Operations team to deploy by 80% by replacing legacy scripts with Docker and Ansible.',
+            'Reduced time spent by Operations team to deploy by 80% by introducing Infrastructure as Code with Docker and Ansible.',
             'Commended for consistently delivering clean and well-structured code at double the speed of other developers on the team.',
         ]
     },
