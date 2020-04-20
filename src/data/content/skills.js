@@ -15,8 +15,8 @@ export const skills = [
     {
         title: 'Frameworks',
         items: [
-            {name: 'Angular', years: '1 year'},
-            {name: 'Ruby on Rails', years: '2 years'},
+            {name: 'Angular', years: '2 years'},
+            {name: 'Ruby on Rails', years: '3 years'},
             {name: 'Flask', years: '3 years'},
             {name: 'Django', years: '1 year'}
         ]
@@ -25,10 +25,10 @@ export const skills = [
         title: "Experienced Technologies",
         items: [
             {name: 'Docker', years: '2 years'},
+            {name: 'CI/CD', years: '2 years'},
             {name: 'Ansible', years: '1 year'},
-            {name: 'Github Actions'},
-            {name: 'Kafka'},
-            {name: 'Redis'}
+            {name: 'PostgreSQL', years: '2 years'},
+            {name: 'ELK Stack', years: '1 year'}
         ]
     }
 ];
