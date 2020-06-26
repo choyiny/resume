@@ -6,7 +6,7 @@ export const projects = [
         subtitle: 'Computer Science research project',
         url: 'https://github.com/choyiny/reliable_blog',
         details: [
-            'An indepedent study to demonstrate Google’s Site Reliability Engineering Principles.',
+            'An indepedent study to demonstrate Google’s Site Reliability Engineering Principles. (Supervised by Dr. Thierry Sans)',
             'Topics researched into includes: Monitoring Distributed Systems, Load Balancing, and Managing Overload',
             'Main Technologies Used: Google Cloud Stack, Kubernetes, Ansible, Elasticsearch, Kibana, Docker',
         ]
