@@ -7,7 +7,7 @@ const Education = () => (
             University of Toronto<span className="content__item-right">2016 - 2020</span>
         </h3>
         <div className='content__item'>
-            <div className='content__item-subtext'>Candidate, Hons. Bachelor of Science, 4th year (Dean’s List Recipient)</div>
+            <div className='content__item-subtext'>Hons. Bachelor of Science with Distinction</div>
         </div>
         <div className='content__item'>
             <div className='content__item-subtext'>Computer Science Specialist (Co-op) – Software Engineering Stream</div>

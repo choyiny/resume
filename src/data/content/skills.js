@@ -18,7 +18,7 @@ export const skills = [
             {name: 'Angular', years: '2 years'},
             {name: 'Ruby on Rails', years: '3 years'},
             {name: 'Flask', years: '3 years'},
-            {name: 'Django', years: '1 year'}
+            {name: 'React Native', years: '2 years'}
         ]
     },
     {
@@ -28,7 +28,7 @@ export const skills = [
             {name: 'CI/CD', years: '2 years'},
             {name: 'Ansible', years: '1 year'},
             {name: 'PostgreSQL', years: '2 years'},
-            {name: 'ELK Stack', years: '1 year'}
+            {name: 'Elastic Stack', years: '1 year'}
         ]
     }
 ];

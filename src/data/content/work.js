@@ -7,8 +7,8 @@ export const work = [
         date: 'Apr 2020 - Present',
         details: [
             'Reduced time spent by Operations team to deploy by 80% by introducing Infrastructure as Code with Docker and Ansible.',
-            'Led the development of the company\'s core infrastructure with Ruby on Rails, Python, and Redis workers to enable applications to scale up for more users.',
-            'Designed an ETL pipeline with Elasticsearch to allow non-developers to analyse data and generate visualizations on patient health information.',
+            'Led the development of an ETL pipeline with elasticsearch which allows implementation specific clinical dashboards to be built 90% faster.',
+            'Architected and developed a framework for creating automated bots to manage, notify and triage patients in hospitals, which became one of the biggest differentiators of the company.',
             'Entrusted to participate in time critical post-deployment hypercare sessions for major hospitals in the Greater Toronto Area.'
         ]
     },
